@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_23343d77408f84c1ca787cb99a57af15 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_23343d77408f84c1ca787cb99a57af15" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_23343d77408f84c1ca787cb99a57af15 = L.map(
+                "map_23343d77408f84c1ca787cb99a57af15",
+                {
+                    center: [55.751244, 37.618423],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7bcb2336c8619ec5ef3020f4e817ff2f = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_7bcb2336c8619ec5ef3020f4e817ff2f.addTo(map_23343d77408f84c1ca787cb99a57af15);
+        
+    
+            var circle_marker_6a55ac8be5344b1d3ec4148f5b2a6bd2 = L.circleMarker(
+                [55.7505412, 37.6174782],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 84.99411744350311, "stroke": true, "weight": 3}
+            ).addTo(map_23343d77408f84c1ca787cb99a57af15);
+        
+    
+        var popup_35c7d28c5af3c933e304b559ff083215 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_71ef50d57a6564f5c35f911ea02c17b1 = $(`<div id="html_71ef50d57a6564f5c35f911ea02c17b1" style="width: 100.0%; height: 100.0%;">Москва - 7224 вакансий</div>`)[0];
+                popup_35c7d28c5af3c933e304b559ff083215.setContent(html_71ef50d57a6564f5c35f911ea02c17b1);
+            
+        
+
+        circle_marker_6a55ac8be5344b1d3ec4148f5b2a6bd2.bindPopup(popup_35c7d28c5af3c933e304b559ff083215)
+        ;
+
+        
+    
+    
+            var circle_marker_84680ee844bfcae956e794fa421f7f61 = L.circleMarker(
+                [59.9606739, 30.1586551],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 37.960505792204614, "stroke": true, "weight": 3}
+            ).addTo(map_23343d77408f84c1ca787cb99a57af15);
+        
+    
+        var popup_4af9fafbc038d1a0fa561e165d4ee300 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f97d9ad376d47fd019cbd183788cf021 = $(`<div id="html_f97d9ad376d47fd019cbd183788cf021" style="width: 100.0%; height: 100.0%;">Санкт-Петербург - 1441 вакансий</div>`)[0];
+                popup_4af9fafbc038d1a0fa561e165d4ee300.setContent(html_f97d9ad376d47fd019cbd183788cf021);
+            
+        
+
+        circle_marker_84680ee844bfcae956e794fa421f7f61.bindPopup(popup_4af9fafbc038d1a0fa561e165d4ee300)
+        ;
+
+        
+    
+    
+            var circle_marker_a9ea18ef57ec5bc2a30dc4a3790523cb = L.circleMarker(
+                [56.839104, 60.60825],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 19.974984355438178, "stroke": true, "weight": 3}
+            ).addTo(map_23343d77408f84c1ca787cb99a57af15);
+        
+    
+        var popup_afe4d6e95b5b5f4a1a859f78cd2a9137 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1f4c49ca8b3addcf5a35d88622e3f3d3 = $(`<div id="html_1f4c49ca8b3addcf5a35d88622e3f3d3" style="width: 100.0%; height: 100.0%;">Екатеринбург - 399 вакансий</div>`)[0];
+                popup_afe4d6e95b5b5f4a1a859f78cd2a9137.setContent(html_1f4c49ca8b3addcf5a35d88622e3f3d3);
+            
+        
+
+        circle_marker_a9ea18ef57ec5bc2a30dc4a3790523cb.bindPopup(popup_afe4d6e95b5b5f4a1a859f78cd2a9137)
+        ;
+
+        
+    
+    
+            var circle_marker_838c1597177a848d6e5ea93459255348 = L.circleMarker(
+                [55.7823547, 49.1242266],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.911534525287763, "stroke": true, "weight": 3}
+            ).addTo(map_23343d77408f84c1ca787cb99a57af15);
+        
+    
+        var popup_424d1f896e163fd67e10a7c22ff4f491 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f9c39527a2baafcba5af607cf0d93b9f = $(`<div id="html_f9c39527a2baafcba5af607cf0d93b9f" style="width: 100.0%; height: 100.0%;">Казань - 286 вакансий</div>`)[0];
+                popup_424d1f896e163fd67e10a7c22ff4f491.setContent(html_f9c39527a2baafcba5af607cf0d93b9f);
+            
+        
+
+        circle_marker_838c1597177a848d6e5ea93459255348.bindPopup(popup_424d1f896e163fd67e10a7c22ff4f491)
+        ;
+
+        
+    
+    
+            var circle_marker_150cea7a73f42d95fe4a776d947348d2 = L.circleMarker(
+                [55.0288307, 82.9226887],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.792855623746664, "stroke": true, "weight": 3}
+            ).addTo(map_23343d77408f84c1ca787cb99a57af15);
+        
+    
+        var popup_6a91ecf7a03d9eae3dc0e0a11a2895e2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f1b104ccdb81bf1001fb1ca01b67bc24 = $(`<div id="html_f1b104ccdb81bf1001fb1ca01b67bc24" style="width: 100.0%; height: 100.0%;">Новосибирск - 282 вакансий</div>`)[0];
+                popup_6a91ecf7a03d9eae3dc0e0a11a2895e2.setContent(html_f1b104ccdb81bf1001fb1ca01b67bc24);
+            
+        
+
+        circle_marker_150cea7a73f42d95fe4a776d947348d2.bindPopup(popup_6a91ecf7a03d9eae3dc0e0a11a2895e2)
+        ;
+
+        
+    
+    
+            var circle_marker_faa2a9cb7654554bf0082b50d9b6fc5c = L.circleMarker(
+                [56.3264816, 44.0051395],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.583123951777, "stroke": true, "weight": 3}
+            ).addTo(map_23343d77408f84c1ca787cb99a57af15);
+        
+    
+        var popup_260e8829bddb31a010e1f928963e9301 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f26cd5bd3b41a2e77c81c4f29c04a18b = $(`<div id="html_f26cd5bd3b41a2e77c81c4f29c04a18b" style="width: 100.0%; height: 100.0%;">Нижний Новгород - 275 вакансий</div>`)[0];
+                popup_260e8829bddb31a010e1f928963e9301.setContent(html_f26cd5bd3b41a2e77c81c4f29c04a18b);
+            
+        
+
+        circle_marker_faa2a9cb7654554bf0082b50d9b6fc5c.bindPopup(popup_260e8829bddb31a010e1f928963e9301)
+        ;
+
+        
+    
+    
+            var circle_marker_707ff74aae89c54e4bcd8e866f84299e = L.circleMarker(
+                [45.0351532, 38.9772396],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.811388300841896, "stroke": true, "weight": 3}
+            ).addTo(map_23343d77408f84c1ca787cb99a57af15);
+        
+    
+        var popup_9eb5f8010cad2ceff3e4eaf0346e5f68 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c4816a01cc7e08381a8c39446089d017 = $(`<div id="html_c4816a01cc7e08381a8c39446089d017" style="width: 100.0%; height: 100.0%;">Краснодар - 250 вакансий</div>`)[0];
+                popup_9eb5f8010cad2ceff3e4eaf0346e5f68.setContent(html_c4816a01cc7e08381a8c39446089d017);
+            
+        
+
+        circle_marker_707ff74aae89c54e4bcd8e866f84299e.bindPopup(popup_9eb5f8010cad2ceff3e4eaf0346e5f68)
+        ;
+
+        
+    
+    
+            var circle_marker_b08e30572656494040eb75faab0b2c42 = L.circleMarker(
+                [51.6605982, 39.2005858],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.601470508735444, "stroke": true, "weight": 3}
+            ).addTo(map_23343d77408f84c1ca787cb99a57af15);
+        
+    
+        var popup_4fba058677cbf29d294a4feaa2d13b81 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0a00a05c16bd5df8439dedefce689636 = $(`<div id="html_0a00a05c16bd5df8439dedefce689636" style="width: 100.0%; height: 100.0%;">Воронеж - 185 вакансий</div>`)[0];
+                popup_4fba058677cbf29d294a4feaa2d13b81.setContent(html_0a00a05c16bd5df8439dedefce689636);
+            
+        
+
+        circle_marker_b08e30572656494040eb75faab0b2c42.bindPopup(popup_4fba058677cbf29d294a4feaa2d13b81)
+        ;
+
+        
+    
+    
+            var circle_marker_1bbdcbbfa05b3e4e4af8c8bfdc273e20 = L.circleMarker(
+                [53.2194648, 50.2039316],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.68857754044952, "stroke": true, "weight": 3}
+            ).addTo(map_23343d77408f84c1ca787cb99a57af15);
+        
+    
+        var popup_9a3d9f289e6a769365a5900e7c2d9715 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_78a6afc4996dead983a1b4c3e09b5205 = $(`<div id="html_78a6afc4996dead983a1b4c3e09b5205" style="width: 100.0%; height: 100.0%;">Самара - 161 вакансий</div>`)[0];
+                popup_9a3d9f289e6a769365a5900e7c2d9715.setContent(html_78a6afc4996dead983a1b4c3e09b5205);
+            
+        
+
+        circle_marker_1bbdcbbfa05b3e4e4af8c8bfdc273e20.bindPopup(popup_9a3d9f289e6a769365a5900e7c2d9715)
+        ;
+
+        
+    
+    
+            var circle_marker_aabe4b9ab092ba1811a9b0563d09df34 = L.circleMarker(
+                [47.2216548, 39.7096061],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.090536506409418, "stroke": true, "weight": 3}
+            ).addTo(map_23343d77408f84c1ca787cb99a57af15);
+        
+    
+        var popup_afe197e3d1e95edbca969db04a644f71 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a79141792e55d3fa34855b65d1e1b806 = $(`<div id="html_a79141792e55d3fa34855b65d1e1b806" style="width: 100.0%; height: 100.0%;">Ростов-на-Дону - 123 вакансий</div>`)[0];
+                popup_afe197e3d1e95edbca969db04a644f71.setContent(html_a79141792e55d3fa34855b65d1e1b806);
+            
+        
+
+        circle_marker_aabe4b9ab092ba1811a9b0563d09df34.bindPopup(popup_afe197e3d1e95edbca969db04a644f71)
+        ;
+
+        
+    
+    
+            var circle_marker_8632d662bab29ffd30043c29731e892d = L.circleMarker(
+                [58.014965, 56.246723],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.246950765959598, "stroke": true, "weight": 3}
+            ).addTo(map_23343d77408f84c1ca787cb99a57af15);
+        
+    
+        var popup_414dfa86cfcd9eedd80483f888cf666d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7d956c214691e76db2ae501a6432afde = $(`<div id="html_7d956c214691e76db2ae501a6432afde" style="width: 100.0%; height: 100.0%;">Пермь - 105 вакансий</div>`)[0];
+                popup_414dfa86cfcd9eedd80483f888cf666d.setContent(html_7d956c214691e76db2ae501a6432afde);
+            
+        
+
+        circle_marker_8632d662bab29ffd30043c29731e892d.bindPopup(popup_414dfa86cfcd9eedd80483f888cf666d)
+        ;
+
+        
+    
+    
+            var circle_marker_ce3e9c86fb36448c08b4db31656d0cd1 = L.circleMarker(
+                [43.1150678, 131.8855768],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.198039027185569, "stroke": true, "weight": 3}
+            ).addTo(map_23343d77408f84c1ca787cb99a57af15);
+        
+    
+        var popup_75f764da54603676d219395dfc52a3c7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e1b7367701399fadda0d32fedc763d2a = $(`<div id="html_e1b7367701399fadda0d32fedc763d2a" style="width: 100.0%; height: 100.0%;">Владивосток - 104 вакансий</div>`)[0];
+                popup_75f764da54603676d219395dfc52a3c7.setContent(html_e1b7367701399fadda0d32fedc763d2a);
+            
+        
+
+        circle_marker_ce3e9c86fb36448c08b4db31656d0cd1.bindPopup(popup_75f764da54603676d219395dfc52a3c7)
+        ;
+
+        
+    
+    
+            var circle_marker_b1f8f03868e43d91aea3155e0491b68d = L.circleMarker(
+                [57.153534, 65.542274],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.848857801796104, "stroke": true, "weight": 3}
+            ).addTo(map_23343d77408f84c1ca787cb99a57af15);
+        
+    
+        var popup_12a6ce1450b57613af8149b092b6e072 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1ee3fc4ed7290c5d202f894fc181d580 = $(`<div id="html_1ee3fc4ed7290c5d202f894fc181d580" style="width: 100.0%; height: 100.0%;">Тюмень - 97 вакансий</div>`)[0];
+                popup_12a6ce1450b57613af8149b092b6e072.setContent(html_1ee3fc4ed7290c5d202f894fc181d580);
+            
+        
+
+        circle_marker_b1f8f03868e43d91aea3155e0491b68d.bindPopup(popup_12a6ce1450b57613af8149b092b6e072)
+        ;
+
+        
+    
+    
+            var circle_marker_83c8db65011232e50c4da1fdb6491aa2 = L.circleMarker(
+                [54.991375, 73.371529],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.746794344808963, "stroke": true, "weight": 3}
+            ).addTo(map_23343d77408f84c1ca787cb99a57af15);
+        
+    
+        var popup_f27919d12782df5486aeec5553bb4cdc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b98a3add2365840946733cdac2f128d2 = $(`<div id="html_b98a3add2365840946733cdac2f128d2" style="width: 100.0%; height: 100.0%;">Омск - 95 вакансий</div>`)[0];
+                popup_f27919d12782df5486aeec5553bb4cdc.setContent(html_b98a3add2365840946733cdac2f128d2);
+            
+        
+
+        circle_marker_83c8db65011232e50c4da1fdb6491aa2.bindPopup(popup_f27919d12782df5486aeec5553bb4cdc)
+        ;
+
+        
+    
+    
+            var circle_marker_060adaa053cf56accfc0b42dbb9faa74 = L.circleMarker(
+                [54.7261409, 55.947499],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.055385138137417, "stroke": true, "weight": 3}
+            ).addTo(map_23343d77408f84c1ca787cb99a57af15);
+        
+    
+        var popup_66228cc18caeaae9f5655692b55a8029 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2caaf7846ca5ec480d1d3a902a10d768 = $(`<div id="html_2caaf7846ca5ec480d1d3a902a10d768" style="width: 100.0%; height: 100.0%;">Уфа - 82 вакансий</div>`)[0];
+                popup_66228cc18caeaae9f5655692b55a8029.setContent(html_2caaf7846ca5ec480d1d3a902a10d768);
+            
+        
+
+        circle_marker_060adaa053cf56accfc0b42dbb9faa74.bindPopup(popup_66228cc18caeaae9f5655692b55a8029)
+        ;
+
+        
+    
+    
+            var circle_marker_df4f78475a9848ed0d3c280a0ccff81e = L.circleMarker(
+                [55.1598408, 61.4025547],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.94427190999916, "stroke": true, "weight": 3}
+            ).addTo(map_23343d77408f84c1ca787cb99a57af15);
+        
+    
+        var popup_18583c817c6392626368fb7105f39856 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9804b7f76aef0bef81382237c3174568 = $(`<div id="html_9804b7f76aef0bef81382237c3174568" style="width: 100.0%; height: 100.0%;">Челябинск - 80 вакансий</div>`)[0];
+                popup_18583c817c6392626368fb7105f39856.setContent(html_9804b7f76aef0bef81382237c3174568);
+            
+        
+
+        circle_marker_df4f78475a9848ed0d3c280a0ccff81e.bindPopup(popup_18583c817c6392626368fb7105f39856)
+        ;
+
+        
+    
+    
+            var circle_marker_2ed6c9ce4359adc52c42dbd1177be737 = L.circleMarker(
+                [56.0091173, 92.872586],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.602325267042627, "stroke": true, "weight": 3}
+            ).addTo(map_23343d77408f84c1ca787cb99a57af15);
+        
+    
+        var popup_dc14045d793ba0a2f8852d3a33c494be = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_651b5753f32c43ac49d80e8eca6793ab = $(`<div id="html_651b5753f32c43ac49d80e8eca6793ab" style="width: 100.0%; height: 100.0%;">Красноярск - 74 вакансий</div>`)[0];
+                popup_dc14045d793ba0a2f8852d3a33c494be.setContent(html_651b5753f32c43ac49d80e8eca6793ab);
+            
+        
+
+        circle_marker_2ed6c9ce4359adc52c42dbd1177be737.bindPopup(popup_dc14045d793ba0a2f8852d3a33c494be)
+        ;
+
+        
+    
+    
+            var circle_marker_6f8f7924693521948d60fc4420519848 = L.circleMarker(
+                [51.530018, 46.034683],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.06225774829855, "stroke": true, "weight": 3}
+            ).addTo(map_23343d77408f84c1ca787cb99a57af15);
+        
+    
+        var popup_347ecd6d3d57c36d706491e146da6cac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0443bbab1ac63c0bf962127f036e101b = $(`<div id="html_0443bbab1ac63c0bf962127f036e101b" style="width: 100.0%; height: 100.0%;">Саратов - 65 вакансий</div>`)[0];
+                popup_347ecd6d3d57c36d706491e146da6cac.setContent(html_0443bbab1ac63c0bf962127f036e101b);
+            
+        
+
+        circle_marker_6f8f7924693521948d60fc4420519848.bindPopup(popup_347ecd6d3d57c36d706491e146da6cac)
+        ;
+
+        
+    
+    
+            var circle_marker_cee7899effa010418203294fbb4cf805 = L.circleMarker(
+                [56.86051745, 53.197730742455306],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.810249675906654, "stroke": true, "weight": 3}
+            ).addTo(map_23343d77408f84c1ca787cb99a57af15);
+        
+    
+        var popup_a35578da6c237c7bdace38e107583f55 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e5109994f8f8e61e8fd22f6f969bee2d = $(`<div id="html_e5109994f8f8e61e8fd22f6f969bee2d" style="width: 100.0%; height: 100.0%;">Ижевск - 61 вакансий</div>`)[0];
+                popup_a35578da6c237c7bdace38e107583f55.setContent(html_e5109994f8f8e61e8fd22f6f969bee2d);
+            
+        
+
+        circle_marker_cee7899effa010418203294fbb4cf805.bindPopup(popup_a35578da6c237c7bdace38e107583f55)
+        ;
+
+        
+    
+    
+            var circle_marker_66261afbd01b604fa037d16aa08d9fd6 = L.circleMarker(
+                [56.4887526, 84.9523434],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.810249675906654, "stroke": true, "weight": 3}
+            ).addTo(map_23343d77408f84c1ca787cb99a57af15);
+        
+    
+        var popup_9d6f8743b1f151e26d6854f8146072da = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4812653306d75db9804edc9a74e99582 = $(`<div id="html_4812653306d75db9804edc9a74e99582" style="width: 100.0%; height: 100.0%;">Томск - 61 вакансий</div>`)[0];
+                popup_9d6f8743b1f151e26d6854f8146072da.setContent(html_4812653306d75db9804edc9a74e99582);
+            
+        
+
+        circle_marker_66261afbd01b604fa037d16aa08d9fd6.bindPopup(popup_9d6f8743b1f151e26d6854f8146072da)
+        ;
+
+        
+    
+    
+            var circle_marker_900b566ded7b4258f20834f7d99ec12f = L.circleMarker(
+                [48.7081906, 44.5153353],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.0, "stroke": true, "weight": 3}
+            ).addTo(map_23343d77408f84c1ca787cb99a57af15);
+        
+    
+        var popup_891b7fa5b765487ee86809396d3a84d7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_35434dc49ba92c0b94951b9d441b51b4 = $(`<div id="html_35434dc49ba92c0b94951b9d441b51b4" style="width: 100.0%; height: 100.0%;">Волгоград - 49 вакансий</div>`)[0];
+                popup_891b7fa5b765487ee86809396d3a84d7.setContent(html_35434dc49ba92c0b94951b9d441b51b4);
+            
+        
+
+        circle_marker_900b566ded7b4258f20834f7d99ec12f.bindPopup(popup_891b7fa5b765487ee86809396d3a84d7)
+        ;
+
+        
+    
+    
+            var circle_marker_150b27926e0b6e0b99785073d20cc355 = L.circleMarker(
+                [54.1930321, 37.61754],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.0, "stroke": true, "weight": 3}
+            ).addTo(map_23343d77408f84c1ca787cb99a57af15);
+        
+    
+        var popup_00ee7686068fea9147ab53e6d6608360 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_42c8cfc9126b7dcfaae19a4b614dd11b = $(`<div id="html_42c8cfc9126b7dcfaae19a4b614dd11b" style="width: 100.0%; height: 100.0%;">Тула - 49 вакансий</div>`)[0];
+                popup_00ee7686068fea9147ab53e6d6608360.setContent(html_42c8cfc9126b7dcfaae19a4b614dd11b);
+            
+        
+
+        circle_marker_150b27926e0b6e0b99785073d20cc355.bindPopup(popup_00ee7686068fea9147ab53e6d6608360)
+        ;
+
+        
+    
+    
+            var circle_marker_908b5d755171054e11150e84757b26da = L.circleMarker(
+                [54.6295687, 39.7425039],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.0, "stroke": true, "weight": 3}
+            ).addTo(map_23343d77408f84c1ca787cb99a57af15);
+        
+    
+        var popup_365e686f48227f488962815f3b809932 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7d1db6d7ae7d71c1cd3ecae88c18a02f = $(`<div id="html_7d1db6d7ae7d71c1cd3ecae88c18a02f" style="width: 100.0%; height: 100.0%;">Рязань - 49 вакансий</div>`)[0];
+                popup_365e686f48227f488962815f3b809932.setContent(html_7d1db6d7ae7d71c1cd3ecae88c18a02f);
+            
+        
+
+        circle_marker_908b5d755171054e11150e84757b26da.bindPopup(popup_365e686f48227f488962815f3b809932)
+        ;
+
+        
+    
+    
+            var circle_marker_e8b7928434b552306e69092943c62980 = L.circleMarker(
+                [54.710128, 20.5105838],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.928203230275509, "stroke": true, "weight": 3}
+            ).addTo(map_23343d77408f84c1ca787cb99a57af15);
+        
+    
+        var popup_ecd528a33274de8708249aca6e19d280 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_06205aa092cde0c0bbba29a23c0f5b40 = $(`<div id="html_06205aa092cde0c0bbba29a23c0f5b40" style="width: 100.0%; height: 100.0%;">Калининград - 48 вакансий</div>`)[0];
+                popup_ecd528a33274de8708249aca6e19d280.setContent(html_06205aa092cde0c0bbba29a23c0f5b40);
+            
+        
+
+        circle_marker_e8b7928434b552306e69092943c62980.bindPopup(popup_ecd528a33274de8708249aca6e19d280)
+        ;
+
+        
+    
+    
+            var circle_marker_19be9fa4b15544d33539b32d572ed853 = L.circleMarker(
+                [56.858675, 35.9208284],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.708203932499369, "stroke": true, "weight": 3}
+            ).addTo(map_23343d77408f84c1ca787cb99a57af15);
+        
+    
+        var popup_242f7a133b19cf5f1e83a5c9a88a8639 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5061f5a0ba70f00befd5cf3ed8ef31ac = $(`<div id="html_5061f5a0ba70f00befd5cf3ed8ef31ac" style="width: 100.0%; height: 100.0%;">Тверь - 45 вакансий</div>`)[0];
+                popup_242f7a133b19cf5f1e83a5c9a88a8639.setContent(html_5061f5a0ba70f00befd5cf3ed8ef31ac);
+            
+        
+
+        circle_marker_19be9fa4b15544d33539b32d572ed853.bindPopup(popup_242f7a133b19cf5f1e83a5c9a88a8639)
+        ;
+
+        
+    
+    
+            var circle_marker_68945fd5d43b02b04a4a47c5c50ff33f = L.circleMarker(
+                [57.650843249999994, 39.87186342970711],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.48074069840786, "stroke": true, "weight": 3}
+            ).addTo(map_23343d77408f84c1ca787cb99a57af15);
+        
+    
+        var popup_0c1028388138a8628dd6c0322ed6928a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_600f711ace9ffde4b38f91ca695d6ddd = $(`<div id="html_600f711ace9ffde4b38f91ca695d6ddd" style="width: 100.0%; height: 100.0%;">Ярославль - 42 вакансий</div>`)[0];
+                popup_0c1028388138a8628dd6c0322ed6928a.setContent(html_600f711ace9ffde4b38f91ca695d6ddd);
+            
+        
+
+        circle_marker_68945fd5d43b02b04a4a47c5c50ff33f.bindPopup(popup_0c1028388138a8628dd6c0322ed6928a)
+        ;
+
+        
+    
+    
+            var circle_marker_317b26543b421b25eb1fb04315dfd1e0 = L.circleMarker(
+                [52.2891225, 104.279829],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.48074069840786, "stroke": true, "weight": 3}
+            ).addTo(map_23343d77408f84c1ca787cb99a57af15);
+        
+    
+        var popup_61dcb7b85a00afac640889015e1806c5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_590ebbafb4315e2b74ff3359223d6925 = $(`<div id="html_590ebbafb4315e2b74ff3359223d6925" style="width: 100.0%; height: 100.0%;">Иркутск - 42 вакансий</div>`)[0];
+                popup_61dcb7b85a00afac640889015e1806c5.setContent(html_590ebbafb4315e2b74ff3359223d6925);
+            
+        
+
+        circle_marker_317b26543b421b25eb1fb04315dfd1e0.bindPopup(popup_61dcb7b85a00afac640889015e1806c5)
+        ;
+
+        
+    
+    
+            var circle_marker_db3254902bfc492ae82ec3d78da0f94a = L.circleMarker(
+                [48.4812568, 135.0762968],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.082762530298219, "stroke": true, "weight": 3}
+            ).addTo(map_23343d77408f84c1ca787cb99a57af15);
+        
+    
+        var popup_15f5246948517e4ab85b7e1b74b226ce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ee90139483d4960095b79bcb7fffad0d = $(`<div id="html_ee90139483d4960095b79bcb7fffad0d" style="width: 100.0%; height: 100.0%;">Хабаровск - 37 вакансий</div>`)[0];
+                popup_15f5246948517e4ab85b7e1b74b226ce.setContent(html_ee90139483d4960095b79bcb7fffad0d);
+            
+        
+
+        circle_marker_db3254902bfc492ae82ec3d78da0f94a.bindPopup(popup_15f5246948517e4ab85b7e1b74b226ce)
+        ;
+
+        
+    
+    
+            var circle_marker_4cdb6326b7efbb91558f73d7c14caaf0 = L.circleMarker(
+                [52.6041877, 39.5936899],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.082762530298219, "stroke": true, "weight": 3}
+            ).addTo(map_23343d77408f84c1ca787cb99a57af15);
+        
+    
+        var popup_42fcf6ed5b36934fdff1070c8e620b2e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ac6f13a4efe522c2ca25555f01c5100e = $(`<div id="html_ac6f13a4efe522c2ca25555f01c5100e" style="width: 100.0%; height: 100.0%;">Липецк - 37 вакансий</div>`)[0];
+                popup_42fcf6ed5b36934fdff1070c8e620b2e.setContent(html_ac6f13a4efe522c2ca25555f01c5100e);
+            
+        
+
+        circle_marker_4cdb6326b7efbb91558f73d7c14caaf0.bindPopup(popup_42fcf6ed5b36934fdff1070c8e620b2e)
+        ;
+
+        
+    
+    
+            var circle_marker_e21bd68ea666e9a072e8ba26ca08275d = L.circleMarker(
+                [54.3150278, 48.403373],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.0, "stroke": true, "weight": 3}
+            ).addTo(map_23343d77408f84c1ca787cb99a57af15);
+        
+    
+        var popup_666219c01f831a354268fd6aad10f3b0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_128637564c4c1dbe3cbe4b5f2221a7c5 = $(`<div id="html_128637564c4c1dbe3cbe4b5f2221a7c5" style="width: 100.0%; height: 100.0%;">Ульяновск - 36 вакансий</div>`)[0];
+                popup_666219c01f831a354268fd6aad10f3b0.setContent(html_128637564c4c1dbe3cbe4b5f2221a7c5);
+            
+        
+
+        circle_marker_e21bd68ea666e9a072e8ba26ca08275d.bindPopup(popup_666219c01f831a354268fd6aad10f3b0)
+        ;
+
+        
+    
+    
+            tile_layer_7bcb2336c8619ec5ef3020f4e817ff2f.addTo(map_23343d77408f84c1ca787cb99a57af15);
+        
+</script>
+</html>
